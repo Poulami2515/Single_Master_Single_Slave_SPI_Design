@@ -35,4 +35,4 @@ Devices communicating using SPI Protocol are usually in master-slave relationshi
   vvp verify.out
 
   ```
-  
+  ![Output](/output.png)
