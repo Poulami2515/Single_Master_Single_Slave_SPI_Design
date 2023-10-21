@@ -36,7 +36,7 @@ Devices communicating using SPI Protocol are usually in master-slave relationshi
 
   ```
 - A dump.vcd file is opened. To view waveforms on GTKWave, use the following command.
- ```bash
+   ```bash
 
   gtkwave dump.vcd
 
