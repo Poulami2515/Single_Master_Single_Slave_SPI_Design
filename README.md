@@ -14,7 +14,7 @@ Devices communicating using SPI Protocol are usually in master-slave relationshi
 - Deselection of the slave : After completing the communication, the master device deactivates the CS/SS line by drawing it high, deselecting the slave. This step is essential for enabling other slave devices on the bus to communicate.
 <br>
 
-## Simulation 
+## Simulation and Visualising waveforms
 
 - Use the following commands on the Ubuntu Linux terminal to install the iverilog simulator and gtkwave waveforms generator.
   ```bash
@@ -35,9 +35,15 @@ Devices communicating using SPI Protocol are usually in master-slave relationshi
   vvp verify.out
 
   ```
+  ![output](https://github.com/Poulami2515/Single_Master_Single_Slave_SPI_Design/assets/91011865/be32924f-9b91-487d-99b6-4baaf2b5ec05)
+
+  
 - A dump.vcd file is opened. To view waveforms on GTKWave, use the following command.
    ```bash
 
   gtkwave dump.vcd
 
   ```
+   ![waveforms](https://github.com/Poulami2515/Single_Master_Single_Slave_SPI_Design/assets/91011865/e54a400d-f80e-4855-8498-91d2f4003b5c)
+
+  
